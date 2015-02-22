@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background: #ffffff url(bkfb.jpg) repeat-x;
+            }
+            #wrap{
+                background: #ffffff url(bkfb.jpg) no-repeat;
+            }
+            #campos{
+                position: absolute;
+                left: 550px;
+                top: 220px;
+            }
+            input{
+                width: 177px;
+                height: 17px;
+            }
+            #pass{
+                position: absolute;
+                top: 62px;
+            }
+            #user{
+                position: absolute;
+                top: 7px;
+            }
+            #enviar{
+                position: absolute;
+                top: 124px;
+                
+            }
+            #imgenviar{
+                background-image: url("btlogin.jpg");
+                width: 107px;
+                height: 26px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <form id="form" action="procesar.php" method="POST">
+            <div id="campos">
+                <div id="user">
+                    <input type="text" name="user">
+                </div>
+                <div id="pass">
+                    <input type="password" name="pass">
+                </div>
+                <div id="enviar">
+                    <button id="imgenviar"></button>
+                </div>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
